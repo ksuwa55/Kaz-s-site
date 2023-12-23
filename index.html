@@ -5,8 +5,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <!-- Compiled and minified CSS -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+    
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <link rel="stylesheet" href="styles/style.css">
 
     <title>Kaz`s site</title>
@@ -16,7 +17,9 @@
         <div class="navbar-fixed">
             <nav>
                 <div class="nav-wrapper">
-                    <a href="#" class="brand-logo">Logo</a>
+                    <a href="#" class="brand-logo">
+                        <i class="large material-icons">ac_unit</i>
+                    </a>
                     <ul id="nav-mobile" class="right hide-on-med-and-down">
                         <li><a href="#" class="scroll-to-top-li">Top</a></li>
                         <li><a href="#" class="scroll-to-top-li">About</a></li>
@@ -31,16 +34,26 @@
     <div id="top-banner-container" class="valign-wrapper led">
         <div class="container">
             <div class="row center">
-                <h1 class="header ">Kaz site</h1>
-                <h5 class="text-for-desktop">Kaz`s programming Laboratory</h5>
-                <i class="material-icons waves-effect waves-light white-text">keyboard_arrow_down</i>
-
+                <h1 class="header"  data-aos="fade-up" data-aos-delay="500" data-aos-duration="700">Kaz site</h1>
+                <h5 class="text-for-desktop"  data-aos="fade-up" data-aos-delay="500" data-aos-duration="700">Kaz`s programming Laboratory</h5>
+                <a href="#">
+                    <i class="medium material-icons waves-effect waves-light white-text" data-aos="fade-up" data-aos-delay="500" data-aos-duration="700">arrow_circle_down</i>
+                </a>
             </div>
         </div>
     </div>
+    <div id="about-site-container" class="valign-wrapper pic">
+        <div class="container">
+            <div class="row center">
+            </div>
+        </div>
+    </div>
+
     <!-- Compiled and minified JavaScript -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
-    
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
 </body>
-   
 </html>
