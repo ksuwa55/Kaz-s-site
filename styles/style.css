@@ -56,6 +56,14 @@ h1, h2, h3, h4, h5, nav ul li a, #logo-container span, #color-switch .btn {
     margin-top: 3rem;
 }
 
+#top-banner-container .container .row {
+    color: #fff;
+}
+
+#buttom-banner-container .container .row {
+    color: #fff;
+}
+
 .pic-wrapper{
     background-image: url("../asset/bg_patt.png");
 }
