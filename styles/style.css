@@ -22,7 +22,7 @@ h1, h2, h3, h4, h5, nav ul li a, #logo-container span, #color-switch .btn {
     font-family: 'Capriola', "ヒラギノ角ゴ ProN W3", Hiragino Kaku Gothic ProN, Meiryo, sans-serif;
 }
 
-@media only screen and (min-width: 601px){
+@media only screen and (min-width: 400px){
 
 .navbar-fixed nav .nav-wrapper {
     background-color: #fff !important;
@@ -36,15 +36,14 @@ h1, h2, h3, h4, h5, nav ul li a, #logo-container span, #color-switch .btn {
     margin-left: 2rem;
 }
     
-#top-banner-container{
-    
-    min-height: 400px;
+.valign-wrapper{
+    min-height: 45rem;
     /* line-height: 0; */
     height: auto;
-    color: #fff;
+    color: #555;
 }
 
-.led {
+.top-wrapper {
     background-color: #66bdff;
 }
 
@@ -57,14 +56,7 @@ h1, h2, h3, h4, h5, nav ul li a, #logo-container span, #color-switch .btn {
     margin-top: 3rem;
 }
 
-#about-site-container {
-    min-height: 400px;
-    /* line-height: 0; */
-    height: auto;
-    color: #555;
-}
-
-.pic{
+.pic-wrapper{
     background-image: url("../asset/bg_patt.png");
 }
 
