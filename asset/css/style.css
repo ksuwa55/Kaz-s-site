@@ -27,7 +27,7 @@ h1, h2, h3, h4, h5, nav ul li a, #logo-container span, #color-switch .btn {
 }
 
 @media only screen and (min-width: 400px){
-
+/* navbar */
 .navbar-fixed nav .nav-wrapper {
     background-color: #fff !important;
     color: #555  !important; /* Set the text color to black */
@@ -40,16 +40,7 @@ h1, h2, h3, h4, h5, nav ul li a, #logo-container span, #color-switch .btn {
     margin-left: 2rem;
 }
 
-.section{
-    min-height: 100vh;
-    height: auto;
-    color: #555;
-}
-
-.section p {
-    margin-bottom: 15px;
-}
-
+/* top banner */
 .top-wrapper {
     background-color: #66bdff;
     min-height: 100vh;
@@ -64,12 +55,21 @@ h1, h2, h3, h4, h5, nav ul li a, #logo-container span, #color-switch .btn {
     color: #fff;
 }
 
-#buttom-banner-container .container .row {
-    color: #fff;
+/* sections */
+.section{
+    min-height: 100vh;
+    height: auto;
+    color: #555;
 }
 
+.section p {
+    margin-bottom: 15px;
+}
+
+
+
 .pic-wrapper{
-    background-image: url("../asset/bg_patt.png");
+    background-image: url("../img/bg_patt.png");
 }
 
 .image-wrapper:before {
@@ -98,5 +98,12 @@ h1, h2, h3, h4, h5, nav ul li a, #logo-container span, #color-switch .btn {
 .left{
     text-align: left;
 }
+
+
+/* footer */
+#buttom-banner-container .container .row {
+    color: #fff;
+}
+
 
 }
