@@ -11,6 +11,10 @@ body, h1, h2, h3, p {
     padding: 0;
 }
 
+p {
+    line-height: 2rem;
+}
+
 body {
     font-family: 'Capriola', sans-serif;
     font-size: 16px;
@@ -40,6 +44,10 @@ h1, h2, h3, h4, h5, nav ul li a, #logo-container span, #color-switch .btn {
     min-height: 100vh;
     height: auto;
     color: #555;
+}
+
+.section p {
+    margin-bottom: 15px;
 }
 
 .top-wrapper {
