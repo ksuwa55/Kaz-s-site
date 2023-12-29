@@ -105,7 +105,7 @@
 
   // footer
   const returnTop = () => {
-    const scrollDuration = 500;
+    const scrollDuration = 800;
     const scrollStep = -window.scrollY / (scrollDuration / 15);
 
     const scrollInterval = setInterval(() => {
