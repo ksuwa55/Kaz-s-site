@@ -70,7 +70,7 @@ h1, h2, h3, h4, h5, nav ul li a, #logo-container span, #color-switch .btn {
 
 
 .pic-wrapper{
-    background-image: url("../img/bg_patt.png");
+    background-image: url("../img/bgi6.jpg");
 }
 
 .image-wrapper:before {
@@ -102,9 +102,12 @@ h1, h2, h3, h4, h5, nav ul li a, #logo-container span, #color-switch .btn {
 
 
 /* footer */
+.page-footer {
+    background-color: #66bdff;
+}
+
 #buttom-banner-container .container .row {
     color: #fff;
 }
-
 
 }
