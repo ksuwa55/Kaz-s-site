@@ -89,7 +89,7 @@
                 <div class="row center">
                     <div class="col s12 m4">
                         <div>
-                            <a href="" class="modal-trigger">
+                            <a href="#modal0" class="modal-trigger">
                                 <div class="card hoverable">
                                     <div class="card-image valign-wrapper">
                                         <div class="image-wrapper">
@@ -159,10 +159,20 @@
                             <p class="center-align project-title grey-text text-darken-3">Asset Management Tool</p>
                         </div>
                     </div>
-                    <div class="col s12 m4">
                 </div>
             </div>
         </div>
+        <div class="modal" id="modal0" style="z-index: 1003; display: none; opacity: 0; transform: scaleX(0.7); top: 0px;">
+            <div class="modal-content">aaaaa</div>
+            <div class="modal-close-button" onclick="closeModal()">Close</div>
+            <script>
+                console.log("worked");
+                function closeModal() {
+                    var modalInstance = M.Modal.getInstance(document.getElementById('modal0'));
+                    modalInstance.close();
+                }
+            </script>
+        </div>   
     </div>
     <div id="skillset-container" class="section valign-wrapper white-wrapper">
         <div class="container">
@@ -260,7 +270,12 @@
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
     <script src="asset/js/custom.js"></script>
-
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            var elems = document.querySelectorAll('.modal');
+            var instances = M.Modal.init(elems);
+        });
+    </script>
     <script>
         AOS.init();
     </script>
