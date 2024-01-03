@@ -103,7 +103,7 @@
                     </div>
                     <div class="col s12 m4">
                         <div>
-                            <a href="" class="modal-trigger">
+                            <a href="#modal1" class="modal-trigger">
                                 <div class="card hoverable">
                                     <div class="card-image valign-wrapper">
                                         <div class="image-wrapper">
@@ -177,14 +177,24 @@
                     </div>
                 </div>
             </div>
-            <div class="modal-close-button" onclick="closeModal()">×</div>
-            <script>
-                console.log("worked");
-                function closeModal() {
-                    var modalInstance = M.Modal.getInstance(document.getElementById('modal0'));
-                    modalInstance.close();
-                }
-            </script>
+            <div class="modal-close-button btn-floating btn-large waves-effect waves-light" onclick="closeModal('modal0')">×</div>
+        </div>   
+        <div class="modal" id="modal1" style="z-index: 1003; display: none; opacity: 0; transform: scaleX(0.7); top: 0px;">
+            <div class="modal-content">
+                <div class="col s12 m4">
+                    <h5>Grade Management Tool</h5>
+                    <p>This is a test management tool that I created for my thesis project during graduate school. 
+                        I tried to keep its operability and UI simple, and it also serves as a project management tool.</p>
+                    <h5>Tools</h5>
+                    <p>PHP/Laravel, MySQL</p>
+                </div>
+                <div class="col s12 m8">
+                    <div class="toolImage">
+                        <img src="asset/img/gradingapp.png" alt="">
+                    </div>
+                </div>
+            </div>
+            <div class="modal-close-button btn-floating btn-large waves-effect waves-light" onclick="closeModal('modal1')">×</div>
         </div>   
     </div>
     <div id="skillset-container" class="section valign-wrapper white-wrapper">
@@ -283,12 +293,6 @@
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
     <script src="asset/js/custom.js"></script>
-    <script>
-        document.addEventListener('DOMContentLoaded', function() {
-            var elems = document.querySelectorAll('.modal');
-            var instances = M.Modal.init(elems);
-        });
-    </script>
     <script>
         AOS.init();
     </script>

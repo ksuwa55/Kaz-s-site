@@ -102,3 +102,13 @@
     data: data,
     options: options,
   });
+
+  document.addEventListener('DOMContentLoaded', function() {
+    var elems = document.querySelectorAll('.modal');
+    var instances = M.Modal.init(elems);
+});
+
+function closeModal(modalId) {
+  var modalInstance = M.Modal.getInstance(document.getElementById(modalId));
+  modalInstance.close();
+}
