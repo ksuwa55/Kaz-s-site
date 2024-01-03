@@ -116,6 +116,10 @@ h1, h2, h3, h4, h5, nav ul li a, #logo-container span, #color-switch .btn {
     max-height: 90%;
 }
 
+.modal {
+    width: 80%;
+}
+
 .modal-content {
     display: flex;
     flex-direction: row;
@@ -138,4 +142,9 @@ h1, h2, h3, h4, h5, nav ul li a, #logo-container span, #color-switch .btn {
     background-color: #66bdff;
     color: #fff;
     border: none;
+}
+
+.modal .toolImage img {
+    text-align: center;
+    max-height: 550px;
 }
