@@ -149,3 +149,10 @@ h1, h2, h3, h4, h5, nav ul li a, #logo-container span, #color-switch .btn {
     max-height: 400px;
     max-width: 600px;
 }
+
+#contact-container h4 {
+    font-size: 1.5em;
+    line-height: 2; 
+    margin-bottom: 20px; 
+    color: #333; 
+}
