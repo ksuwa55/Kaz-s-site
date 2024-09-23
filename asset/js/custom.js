@@ -105,11 +105,11 @@
 
   // modals
 document.addEventListener('DOMContentLoaded', function() {
-  var elems = document.querySelectorAll('.modal');
-  var instances = M.Modal.init(elems);
+  const elems = document.querySelectorAll('.modal');
+  const instances = M.Modal.init(elems);
 });
 
 function closeModal(modalId) {
-  var modalInstance = M.Modal.getInstance(document.getElementById(modalId));
+  const modalInstance = M.Modal.getInstance(document.getElementById(modalId));
   modalInstance.close();
 }
