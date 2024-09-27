@@ -41,6 +41,12 @@ h1, h2, h3, h4, h5, nav ul li a, #logo-container span, #color-switch .btn {
     margin-left: 2rem;
 }
 
+.navbar-fixed nav .nav-wrapper {
+    background-color: #fff !important; /* Set the background to white */
+    color: #555 !important;             /* Set the text color to black */
+}
+
+
 /* top banner */
 .top-wrapper {
     background-color: #66bdff;
@@ -155,4 +161,28 @@ h1, h2, h3, h4, h5, nav ul li a, #logo-container span, #color-switch .btn {
     line-height: 2; 
     margin-bottom: 20px; 
     color: #333; 
+}
+
+/* Responsive Styles */
+@media only screen and (max-width: 600px) {
+    h1 {
+        font-size: 1.5em; /* Smaller font size for h1 */
+    }
+    h5 {
+        font-size: 1.2em; /* Smaller font size for h5 */
+    }
+    /* Ensure images are responsive */
+    img {
+        max-width: 100%; /* Make sure images scale down */
+        height: auto; /* Maintain aspect ratio */
+    }
+    .section {
+        padding: 1rem; /* Add padding for smaller screens */
+    }
+}
+
+@media only screen and (min-width: 601px) {
+    .section {
+        padding: 2rem; /* More padding on larger screens */
+    }
 }
