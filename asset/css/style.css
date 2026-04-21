@@ -158,31 +158,74 @@ h1, h2, h3, h4, h5, nav ul li a, #logo-container span, #color-switch .btn {
 
 #contact-container h4 {
     font-size: 1.5em;
-    line-height: 2; 
-    margin-bottom: 20px; 
-    color: #333; 
+    line-height: 2;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+/* Works bottom row - centered on desktop */
+.works-bottom-row {
+    width: 65%;
+    margin: 0 auto;
+}
+
+/* Sidenav */
+.sidenav li a {
+    color: #555;
 }
 
 /* Responsive Styles */
 @media only screen and (max-width: 600px) {
     h1 {
-        font-size: 1.5em; /* Smaller font size for h1 */
+        font-size: 1.5em;
     }
     h5 {
-        font-size: 1.2em; /* Smaller font size for h5 */
+        font-size: 1.2em;
     }
-    /* Ensure images are responsive */
     img {
-        max-width: 100%; /* Make sure images scale down */
-        height: auto; /* Maintain aspect ratio */
+        max-width: 100%;
+        height: auto;
     }
     .section {
-        padding: 1rem; /* Add padding for smaller screens */
+        padding: 1rem;
+    }
+
+    .text-for-desktop {
+        display: none;
+    }
+
+    /* Profile image centering */
+    #profile-image {
+        display: block;
+        margin: 0 auto 1rem;
+    }
+
+    /* Works bottom row full width */
+    .works-bottom-row {
+        width: 100%;
+    }
+
+    /* Modal stacks vertically */
+    .modal {
+        width: 95%;
+    }
+    .modal-content {
+        flex-direction: column;
+    }
+    .modal .toolImage img {
+        max-width: 100%;
+        max-height: none;
+        width: 100%;
+    }
+
+    /* Contact section font size */
+    #contact-container h4 {
+        font-size: 1.1em;
     }
 }
 
 @media only screen and (min-width: 601px) {
     .section {
-        padding: 2rem; /* More padding on larger screens */
+        padding: 2rem;
     }
 }

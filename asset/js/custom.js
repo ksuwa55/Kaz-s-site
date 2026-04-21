@@ -106,7 +106,10 @@
   // modals
 document.addEventListener('DOMContentLoaded', function() {
   const elems = document.querySelectorAll('.modal');
-  const instances = M.Modal.init(elems);
+  M.Modal.init(elems);
+
+  const sidenavElems = document.querySelectorAll('.sidenav');
+  M.Sidenav.init(sidenavElems);
 });
 
 function closeModal(modalId) {

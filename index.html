@@ -11,12 +11,20 @@
     <title>Kaz`s site</title>
 </head>
 <body>
+    <ul class="sidenav" id="mobile-nav">
+        <li><a href="#">Top</a></li>
+        <li><a href="#about-me-container">About</a></li>
+        <li><a href="#works-container">Portfolio</a></li>
+    </ul>
     <header>
         <div class="navbar-fixed">
             <nav>
                 <div class="nav-wrapper">
                     <a href="#" class="brand-logo">
                         <i class="large material-icons">ac_unit</i>
+                    </a>
+                    <a href="#" data-target="mobile-nav" class="sidenav-trigger hide-on-large-only">
+                        <i class="material-icons">menu</i>
                     </a>
                     <ul id="nav-mobile" class="right hide-on-med-and-down">
                         <li><a href="#" class="scroll-to-top-li">Top</a></li>
@@ -127,7 +135,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="row" style="width: 65%;">
+                <div class="row works-bottom-row">
                     <div class="col s12 m6">
                         <div>
                             <a href="#modal3" class="modal-trigger">
