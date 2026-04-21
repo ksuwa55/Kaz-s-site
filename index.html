@@ -167,88 +167,65 @@
                 </div>
             </div>
         </div>
-        <div class="modal" id="modal0" style="z-index: 1003; display: none; opacity: 0; transform: scaleX(0.7); top: 0px;">
-            <div class="modal-content">
-                <div class="col s12 m4">
-                    <h5>Simple Test Tool</h5>
-                    <p>This is a test management tool that I created for my thesis project during graduate school. 
-                        I tried to keep its operability and UI simple, and it also serves as a project management tool.</p>
-                    <h5>Tools</h5>
-                    <p>PHP/Laravel, MySQL</p>
-                    <a href="https://github.com/ksuwa55/online-test-management-platform">github</a>
-                </div>
-                <div class="col s12 m8">
-                    <div class="toolImage">
-                        <img src="asset/img/testmanagementtool.png" alt="">
-                    </div> 
-                </div>
+        <div class="modal" id="modal0">
+            <button class="modal-close-button" onclick="closeModal('modal0')">×</button>
+            <div class="modal-hero">
+                <img src="asset/img/testmanagementtool.png" alt="Simple Test Tool">
             </div>
-            <div class="modal-close-button btn-floating btn-large waves-effect waves-light" onclick="closeModal('modal0')">×</div>
-        </div>
-        <div class="modal" id="modal1" style="z-index: 1003; display: none; opacity: 0; transform: scaleX(0.7); top: 0px;">
-            <div class="modal-content">
-                <div class="col s12 m4">
-                    <h5>Grade Management Tool</h5>
-                    <p>This application allows you to manage grade inputs, total grades, etc.</p>
-                    <h5>Tools</h5>
-                    <p>PHP, MySQL</p>
-                    <a href="https://github.com/ksuwa55/GradingApp">github</a>
-                </div>
-                <div class="col s12 m8">
-                    <div class="toolImage">
-                        <img src="asset/img/gradingapp.png" alt="">
-                    </div>
-                </div>
+            <div class="modal-body">
+                <h5>Simple Test Tool</h5>
+                <p>This is a test management tool that I created for my thesis project during graduate school.
+                    I tried to keep its operability and UI simple, and it also serves as a project management tool.</p>
+                <p class="modal-tools"><strong>Tools:</strong> PHP/Laravel, MySQL</p>
+                <a class="modal-link" href="https://github.com/ksuwa55/online-test-management-platform" target="_blank">View on GitHub →</a>
             </div>
-            <div class="modal-close-button btn-floating btn-large waves-effect waves-light" onclick="closeModal('modal1')">×</div>
         </div>
-        <div class="modal" id="modal2" style="z-index: 1003; display: none; opacity: 0; transform: scaleX(0.7); top: 0px;">
-            <div class="modal-content">
-                <div class="col s12 m4">
-                    <h5>My Portfolio Site</h5>
-                    <p>This is my portfolio site. I tried to keep the design easy to read and simple. Please take a look.</p>
-                    <h5>Tools</h5>
-                    <p>HTML, CSS, JavaScript</p>
-                    <a href="https://github.com/ksuwa55/Kaz-s-site">github</a>
-                </div>
-                <div class="col s12 m8">
-                    <div class="toolImage">
-                        <img src="asset/img/mysite.jpeg" alt="">
-                    </div>
-                </div>
+        <div class="modal" id="modal1">
+            <button class="modal-close-button" onclick="closeModal('modal1')">×</button>
+            <div class="modal-hero">
+                <img src="asset/img/gradingapp.png" alt="Grade Management Tool">
             </div>
-            <div class="modal-close-button btn-floating btn-large waves-effect waves-light" onclick="closeModal('modal2')">×</div>
-        </div>
-        <div class="modal" id="modal3" style="z-index: 1003; display: none; opacity: 0; transform: scaleX(0.7); top: 0px;">
-            <div class="modal-content">
-                <div class="col s12 m4">
-                    <h5>Market Scraper</h5>
-                    <p>This is a script that uses python to get US stock prices, etc.</p>
-                    <h5>Tools</h5>
-                    <p>python</p>
-                </div>
-                <div class="col s12 m8">
-                    <div class="toolImage">
-                        <img src="asset/img/scraper.png" alt="">
-                    </div>
-                </div>
+            <div class="modal-body">
+                <h5>Grade Management Tool</h5>
+                <p>This application allows you to manage grade inputs, total grades, etc.</p>
+                <p class="modal-tools"><strong>Tools:</strong> PHP, MySQL</p>
+                <a class="modal-link" href="https://github.com/ksuwa55/GradingApp" target="_blank">View on GitHub →</a>
             </div>
-            <div class="modal-close-button btn-floating btn-large waves-effect waves-light" onclick="closeModal('modal3')">×</div>
         </div>
-        <div class="modal" id="modal4" style="z-index: 1003; display: none; opacity: 0; transform: scaleX(0.7); top: 0px;">
-            <div class="modal-content">
-                <div class="col s12 m4">
-                    <h5>Asset Management Tool</h5>
-                    <p>It is a simple tool to add to and manage your assets.</p>
-                    <h5>Tools</h5>
-                    <p>Java/ScpringBoot, JavaScript/React, MySQL</p>
-                    <a href="https://github.com/ksuwa55/assestManagement">github</a>
-                </div>
-                <div class="col s12 m8">
-                    <div class="toolImage">
-                        <img src="asset/img/aseetmgt.png" alt="">
-                    </div>
-                </div>
+        <div class="modal" id="modal2">
+            <button class="modal-close-button" onclick="closeModal('modal2')">×</button>
+            <div class="modal-hero">
+                <img src="asset/img/mysite.jpeg" alt="My Portfolio Site">
+            </div>
+            <div class="modal-body">
+                <h5>My Portfolio Site</h5>
+                <p>This is my portfolio site. I tried to keep the design easy to read and simple. Please take a look.</p>
+                <p class="modal-tools"><strong>Tools:</strong> HTML, CSS, JavaScript</p>
+                <a class="modal-link" href="https://github.com/ksuwa55/Kaz-s-site" target="_blank">View on GitHub →</a>
+            </div>
+        </div>
+        <div class="modal" id="modal3">
+            <button class="modal-close-button" onclick="closeModal('modal3')">×</button>
+            <div class="modal-hero">
+                <img src="asset/img/scraper.png" alt="Market Scraper">
+            </div>
+            <div class="modal-body">
+                <h5>Market Scraper</h5>
+                <p>This is a script that uses Python to get US stock prices, etc.</p>
+                <p class="modal-tools"><strong>Tools:</strong> Python</p>
+            </div>
+        </div>
+        <div class="modal" id="modal4">
+            <button class="modal-close-button" onclick="closeModal('modal4')">×</button>
+            <div class="modal-hero">
+                <img src="asset/img/aseetmgt.png" alt="Asset Management Tool">
+            </div>
+            <div class="modal-body">
+                <h5>Asset Management Tool</h5>
+                <p>It is a simple tool to add to and manage your assets.</p>
+                <p class="modal-tools"><strong>Tools:</strong> Java/Spring Boot, JavaScript/React, MySQL</p>
+                <a class="modal-link" href="https://github.com/ksuwa55/assestManagement" target="_blank">View on GitHub →</a>
+            </div>
             </div>
             <div class="modal-close-button btn-floating btn-large waves-effect waves-light" onclick="closeModal('modal4')">×</div>
         </div>
