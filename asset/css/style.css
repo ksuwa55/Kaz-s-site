@@ -121,12 +121,9 @@ h1, h2, h3, h4, h5, nav ul li a, #logo-container span, #color-switch .btn {
 .modal {
     width: 520px !important;
     max-width: 92vw !important;
-    max-height: 90vh !important;
     border-radius: 12px !important;
-    overflow: hidden !important;
     box-shadow: 0 20px 60px rgba(0, 0, 0, 0.25) !important;
     padding: 0 !important;
-    position: relative !important;
 }
 
 .modal-hero {
@@ -135,6 +132,7 @@ h1, h2, h3, h4, h5, nav ul li a, #logo-container span, #color-switch .btn {
     overflow: hidden;
     background: #e8e8e8;
     flex-shrink: 0;
+    border-radius: 12px 12px 0 0;
 }
 
 .modal-hero img {
@@ -263,7 +261,7 @@ h1, h2, h3, h4, h5, nav ul li a, #logo-container span, #color-switch .btn {
 
     /* Modal */
     .modal {
-        max-width: 96vw;
+        max-width: 96vw !important;
     }
     .modal-hero {
         height: 200px;
