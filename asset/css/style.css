@@ -109,14 +109,190 @@ h1, h2, h3, h4, h5, nav ul li a, #logo-container span, #color-switch .btn {
 
 /* footer */
 .page-footer {
-    background-color: #66bdff;
+    background-color: #1a2738;
+    padding: 0;
 }
 
-#buttom-banner-container .container .row {
+.footer-main {
+    padding: 3rem 1rem 2rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 0.8rem;
+}
+
+.footer-brand {
+    font-size: 1.6rem;
+    font-weight: 700;
     color: #fff;
+    letter-spacing: 1px;
+}
+
+.footer-tagline {
+    color: rgba(255, 255, 255, 0.45);
+    font-size: 0.8rem;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    margin: 0;
+    line-height: 1;
+}
+
+.footer-links {
+    display: flex;
+    gap: 0.8rem;
+    margin-top: 0.4rem;
+}
+
+.footer-icon-link {
+    width: 44px;
+    height: 44px;
+    border-radius: 50%;
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: rgba(255, 255, 255, 0.6);
+    transition: border-color 0.2s, color 0.2s, background-color 0.2s;
+}
+
+.footer-icon-link:hover {
+    border-color: #66bdff;
+    color: #66bdff;
+    background-color: rgba(102, 189, 255, 0.1);
+}
+
+.footer-icon-link i {
+    font-size: 1.2rem;
+}
+
+.footer-top-link {
+    display: flex;
+    align-items: center;
+    gap: 0.3rem;
+    color: rgba(255, 255, 255, 0.4);
+    font-size: 0.75rem;
+    letter-spacing: 1.5px;
+    text-transform: uppercase;
+    margin-top: 0.8rem;
+    padding-top: 1.5rem;
+    width: 100%;
+    max-width: 300px;
+    justify-content: center;
+    border-top: 1px solid rgba(255, 255, 255, 0.1);
+    transition: color 0.2s;
+}
+
+.footer-top-link:hover {
+    color: #66bdff;
+}
+
+.footer-top-link i {
+    font-size: 1.1rem;
+}
+
+.footer-copyright {
+    background-color: rgba(0, 0, 0, 0.25);
+    text-align: center;
+    padding: 0.9rem;
+    color: rgba(255, 255, 255, 0.3);
+    font-size: 0.78rem;
 }
 
 }
+
+/* ── Shared design language ─────────────────────────────── */
+
+/* Nav links */
+#nav-mobile li a,
+.sidenav li a {
+    letter-spacing: 1.5px;
+    text-transform: uppercase;
+    font-size: 0.78rem;
+    font-weight: 600;
+}
+
+/* Top banner */
+#top-banner-container h1 {
+    letter-spacing: 5px;
+    text-transform: uppercase;
+    font-weight: 700;
+}
+#top-banner-container h5 {
+    letter-spacing: 2px;
+    opacity: 0.85;
+}
+
+/* Section headings — uppercase + blue accent underline */
+.section h1 {
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    font-size: 1.35rem;
+    font-weight: 700;
+    display: block;
+    text-align: center;
+    margin-bottom: 0.75rem;
+}
+.section h1::after {
+    content: '';
+    display: block;
+    width: 36px;
+    height: 2px;
+    background-color: #66bdff;
+    border-radius: 2px;
+    margin: 0.6rem auto 1.5rem;
+}
+
+/* Profile image */
+#profile-image {
+    border-radius: 50%;
+    border: 3px solid #66bdff;
+    box-shadow: 0 4px 20px rgba(102, 189, 255, 0.3);
+}
+#about-me-container .row i.material-icons {
+    color: #66bdff;
+}
+
+/* Works cards */
+#works-container .card {
+    border-radius: 10px;
+    overflow: hidden;
+    transition: transform 0.25s ease, box-shadow 0.25s ease;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.08);
+}
+#works-container .card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 14px 32px rgba(0, 0, 0, 0.16);
+}
+.project-title {
+    letter-spacing: 1px;
+    font-size: 0.78rem;
+    text-transform: uppercase;
+    margin-top: 0.5rem;
+}
+
+/* Skills legend */
+#skillset-container .collection {
+    border: none;
+    background: transparent;
+}
+#skillset-container .collection li {
+    border-bottom: 1px solid rgba(0, 0, 0, 0.06);
+    padding: 0.5rem 0;
+    font-size: 0.85rem;
+    letter-spacing: 0.5px;
+    color: #666;
+    list-style: none;
+}
+#skillset-container .collection li:last-child {
+    border-bottom: none;
+}
+
+/* White wrapper */
+.white-wrapper {
+    background-color: #fff;
+}
+
+/* ──────────────────────────────────────────────────────── */
 
 .modal {
     width: 520px !important;
