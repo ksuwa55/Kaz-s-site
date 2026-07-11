@@ -14,14 +14,16 @@
     <ul class="sidenav" id="mobile-nav">
         <li><a href="#">Top</a></li>
         <li><a href="#about-me-container">About</a></li>
+        <li><a href="#experience-container">Experience</a></li>
         <li><a href="#works-container">Portfolio</a></li>
+        <li><a href="#skillset-container">Skills</a></li>
     </ul>
     <header>
         <div class="navbar-fixed">
             <nav>
                 <div class="nav-wrapper">
                     <a href="#" class="brand-logo">
-                        <i class="large material-icons">ac_unit</i>
+                        <span class="logo-monogram">KS</span>
                     </a>
                     <a href="#" data-target="mobile-nav" class="sidenav-trigger hide-on-large-only">
                         <i class="material-icons">menu</i>
@@ -29,7 +31,9 @@
                     <ul id="nav-mobile" class="right hide-on-med-and-down">
                         <li><a href="#" class="scroll-to-top-li">Top</a></li>
                         <li><a href="#about-me-container" class="scroll-to-top-li">About</a></li>
+                        <li><a href="#experience-container" class="scroll-to-top-li">Experience</a></li>
                         <li><a href="#works-container" class="scroll-to-top-li">Portfolio</a></li>
+                        <li><a href="#skillset-container" class="scroll-to-top-li">Skills</a></li>
                     </ul>
                 </div>
             </nav>
@@ -71,18 +75,62 @@
                         width="150" height="150" data-aos-duration="300" data-aos="zoom-in" data-aos-once="true" class="aos-init aos-animate">
                     </div>
                     <div class="col s12 m6">
-                        <p> I am an engineer from Shizuoka, Japan. After studying computer science in England, 
-                            I worked in the development and production of BI systems. 
-                            Later, drawn to the technology of software development, 
-                            I made a transition at the age of 29 to the Open Engineering department of a user company. 
-                            Beginning my career in operations and technical support, 
-                            I have gained extensive experience, covering tasks ranging from infrastructure and front-end development to web page creation and Java/Spring Boot.</p>
+                        <p> I'm a Data Engineer and Architect from Shizuoka, Japan, with a foundation in software engineering
+                            and an MSc in Computing Science (Distinction) from Oxford Brookes University.
+                            I started out building BI dashboards, then moved into full-stack and infrastructure engineering,
+                            and now design enterprise-scale data platforms and AI-driven automation agents.
+                            I bridge cloud infrastructure (AWS) with full-stack development (Java, Next.js), and bring
+                            advanced proficiency in the Microsoft Fabric ecosystem. I'm a certified Scrum Master, focused on
+                            delivering scalable, high-performance solutions that align data engineering with agile delivery.</p>
                         <div class="row">
                             <i class="small material-icons col">place</i><p class="col">Tokyo</p>
                         </div>
                     </div>
                 </div>
             </div>
+        </div>
+    </div>
+    <div id="experience-container" class="section valign-wrapper white-wrapper">
+        <div class="container">
+            <h1 class="center">Experience</h1>
+            <ul class="timeline">
+                <li class="timeline-item">
+                    <div class="timeline-header">
+                        <h5>Data Engineer / Architect</h5>
+                        <span class="timeline-date">2026 – Present</span>
+                    </div>
+                    <p class="timeline-company">JDSC Co., Ltd.</p>
+                    <ul class="timeline-bullets">
+                        <li>Led end-to-end development of AI-driven automation agents (Copilot Studio, SharePoint, Fabric) that automate quarterly management meeting materials.</li>
+                        <li>Architected an enterprise financial reporting platform on Microsoft Fabric and Power BI, unifying fragmented data sources.</li>
+                        <li>Established DataOps and CI/CD practices, migrating legacy reporting environments to Git-based version control and automated Fabric deployment pipelines.</li>
+                    </ul>
+                </li>
+                <li class="timeline-item">
+                    <div class="timeline-header">
+                        <h5>System Engineer</h5>
+                        <span class="timeline-date">2021 – 2026</span>
+                    </div>
+                    <p class="timeline-company">AXA Life Insurance Co., Ltd.</p>
+                    <ul class="timeline-bullets">
+                        <li>Worked on a large-scale sales support system (30+ members across internal and partner companies), migrating daily batch processing to AWS Lambda/Glue with Step Functions orchestration.</li>
+                        <li>Implemented backend features in Java (Spring Boot), including SOAP and REST APIs, and frontend enhancements in Backbone.js/React.js.</li>
+                        <li>Managed releases with Jenkins and OpenShift, and acted as Scrum Master introducing Agile ceremonies to an investment workflow project built on Microsoft Power Platform.</li>
+                    </ul>
+                </li>
+                <li class="timeline-item">
+                    <div class="timeline-header">
+                        <h5>BI Engineer and Consultant</h5>
+                        <span class="timeline-date">2018 – 2020</span>
+                    </div>
+                    <p class="timeline-company">GranValley Co., Ltd.</p>
+                    <ul class="timeline-bullets">
+                        <li>Developed data visualization systems for manufacturing clients using QlikView and SAP Analytics Cloud.</li>
+                        <li>Designed and deployed three accounting data visualization solutions with QlikView.</li>
+                        <li>Processed and transformed large datasets with Python for integration with BI tools.</li>
+                    </ul>
+                </li>
+            </ul>
         </div>
     </div>
     <div id="works-container" class="section valign-wrapper pic-wrapper">
@@ -92,6 +140,22 @@
                     <p class="center">Introduction of my work.</p>
             </div>
                 <div class="row center">
+                    <div class="col s12 m4">
+                        <div>
+                            <a href="#modal-miyabisai" class="modal-trigger">
+                                <div class="card hoverable">
+                                    <div class="card-image valign-wrapper">
+                                        <div class="image-wrapper">
+                                            <div class="div-cover project-icon-cover">
+                                                <i class="large material-icons">storefront</i>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </a>
+                            <p class="center-align project-title grey-text text-darken-3">Miyabisai</p>
+                        </div>
+                    </div>
                     <div class="col s12 m4">
                         <div>
                             <a href="#modal0" class="modal-trigger">
@@ -120,6 +184,8 @@
                             <p class="center-align project-title grey-text text-darken-3">Grade Management Tool</p>
                         </div>
                     </div>
+                </div>
+                <div class="row center">
                     <div class="col s12 m4">
                         <div>
                             <a href="#modal2" class="modal-trigger">
@@ -134,9 +200,7 @@
                             <p class="center-align project-title grey-text text-darken-3">My Personal Site</p>
                         </div>
                     </div>
-                </div>
-                <div class="row works-bottom-row">
-                    <div class="col s12 m6">
+                    <div class="col s12 m4">
                         <div>
                             <a href="#modal3" class="modal-trigger">
                                 <div class="card hoverable">
@@ -150,7 +214,7 @@
                             <p class="center-align project-title grey-text text-darken-3">Market Scraper</p>
                         </div>
                     </div>
-                    <div class="col s12 m6">
+                    <div class="col s12 m4">
                         <div>
                             <a href="#modal4" class="modal-trigger">
                                 <div class="card hoverable">
@@ -165,6 +229,21 @@
                         </div>
                     </div>
                 </div>
+            </div>
+        </div>
+        <div class="modal" id="modal-miyabisai">
+            <button class="modal-close-button" onclick="closeModal('modal-miyabisai')">×</button>
+            <div class="modal-hero modal-hero-icon">
+                <i class="large material-icons">storefront</i>
+            </div>
+            <div class="modal-body">
+                <h5>Miyabisai</h5>
+                <p>Lead web developer (pro bono) for a modern, high-performance business website. Architected the frontend
+                    with Next.js for optimal SEO, integrated MicroCMS as a headless CMS for an easy-to-use content
+                    workflow, and implemented automated email delivery via the Resend API, deployed on Cloudflare
+                    for high availability and edge performance.</p>
+                <p class="modal-tools"><strong>Tools:</strong> Next.js, MicroCMS, Resend API, Cloudflare</p>
+                <a class="modal-link" href="https://miyabisai.com" target="_blank">Visit Site →</a>
             </div>
         </div>
         <div class="modal" id="modal0">
@@ -236,10 +315,11 @@
             <h1 class="center">Skills</h1>
             <div class="row">
                 <div class="col s12 m12">
-                    <p> I have graphically summarized the skills I acquired through my training. 
-                        I've worked on a wide range of skills, both in front-end and back-end, albeit with a broad but shallow depth. 
-                        My strength lies in my all-around ability, though I'm aware that my overall understanding is shallow, and my expertise is currently low. 
-                        In the future, I aspire to increase my involvement in back-end development, including cloud computing, to gradually enhance my expertise.
+                    <p> I have graphically summarized the skills I've built across full-stack development, cloud
+                        infrastructure, and data engineering. My core strength is bridging AWS cloud infrastructure
+                        with full-stack development (Java, Next.js), with advanced proficiency in the Microsoft
+                        Fabric ecosystem for enterprise data platforms and BI. I continue to deepen my expertise in
+                        AI-driven automation and large-scale data architecture.
                     </p>
                 </div>
                 <div class="col s12 m4 aos-init aos-animate" data-aos-duration="700" data-aos="zoom-in" data-aos-once="true">
@@ -263,8 +343,9 @@
                          <div class="col s12 m4"></div>
                 </div>
                 <div class="col s12 m12 aos-init aos-animate" data-aos-duration="700" data-aos="zoom-in" data-aos-once="true">
-                    Essentially, I can handle all aspects of backend and frontend development, and technically, I stand second to none in this regard. 
-                    I am continually searching for strengths that set me apart and make me unbeatable.
+                    From full-stack application development to cloud infrastructure and enterprise data platforms,
+                    I aim to be the engineer who can carry a project from requirements through to a scalable,
+                    production-ready system.
                 </div>
             </div>
         </div>
@@ -296,7 +377,7 @@
             </a>
         </div>
         <div class="footer-copyright">
-            © 2024 Kaz's site
+            © 2026 Kaz's site
         </div>
     </footer>
     <!-- Compiled and minified JavaScript -->

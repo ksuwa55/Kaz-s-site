@@ -10,21 +10,21 @@
       }
     }
   }
-  // Front-end
+  // Programming & Frameworks
   var ctx = document.getElementById('frontendSkillChart');
 
   var data = {
     labels: [
-      'HTML/CSS',
-      'JavaScript',
-      'WordPress',
-      'React.js',
-      'Playwright',
-      'backbone.js'
+      'Java/Spring',
+      'JS/TS',
+      'Backbone.js',
+      'Python',
+      'PHP',
+      'Apps Script'
     ],
     datasets: [{
-      label: 'Front-End',
-      data: [2, 3, 2, 2, 2, 2],
+      label: 'Programming & Frameworks',
+      data: [4, 4, 3, 3, 3, 2],
       fill: true,
       backgroundColor: 'rgba(255, 99, 132, 0.2)',
       borderColor: 'rgb(255, 99, 132)',
@@ -41,21 +41,21 @@
     options: options,
   });
 
-  // Back-end
+  // Cloud & DevOps
   var ctx = document.getElementById('backendSkillChart');
 
   var data = {
     labels: [
-      'Java/Spring Boot',
-      'OracleDB',
-      'MySQL',
-      'PHP/Laravel',
-      'Node.js',
-      'python'
+      'AWS',
+      'Docker',
+      'OpenShift',
+      'Jenkins',
+      'GitHub CI/CD',
+      'Cloudflare'
     ],
     datasets: [{
-      label: 'Back-End/DB',
-      data: [3, 3, 2, 1, 2, 2],
+      label: 'Cloud & DevOps',
+      data: [4, 3, 3, 3, 4, 3],
       fill: true,
       backgroundColor: 'rgba(121, 198, 182, 0.2)',
       borderColor: 'rgba(121, 198, 182, 1)',
@@ -72,21 +72,21 @@
     options: options,
   });
 
-  // Others
+  // Data Engineering, BI & AI
   var ctx = document.getElementById('OtherSkillChart');
 
   var data = {
     labels: [
-      'OpenShift',
-      'Git/GitHub',
-      'AWS',
-      'Jenkins',
-      'ArgoCD',
-      'Agile'
+      'MS Fabric',
+      'Power BI',
+      'Power Platform',
+      'Copilot Studio',
+      'Qlik',
+      'Agile/Scrum'
     ],
     datasets: [{
-      label: 'Operation/Project Management',
-      data: [3, 3, 2, 2, 3, 4],
+      label: 'Data Engineering, BI & AI',
+      data: [4, 4, 3, 3, 3, 4],
       fill: true,
       backgroundColor: 'rgba(255, 195, 93, 0.2)',
       borderColor: 'rgba(255, 195, 93, 1)',

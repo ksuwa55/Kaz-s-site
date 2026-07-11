@@ -202,6 +202,22 @@ h1, h2, h3, h4, h5, nav ul li a, #logo-container span, #color-switch .btn {
 
 /* ── Shared design language ─────────────────────────────── */
 
+/* Brand logo monogram */
+.logo-monogram {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 40px;
+    height: 40px;
+    margin-left: 1.5rem;
+    border-radius: 50%;
+    background-color: #66bdff;
+    color: #fff !important;
+    font-size: 0.95rem;
+    font-weight: 700;
+    letter-spacing: 0.5px;
+}
+
 /* Nav links */
 #nav-mobile li a,
 .sidenav li a {
@@ -394,6 +410,89 @@ h1, h2, h3, h4, h5, nav ul li a, #logo-container span, #color-switch .btn {
 .works-bottom-row {
     width: 65%;
     margin: 0 auto;
+}
+
+/* Icon-based project card (no screenshot available) */
+.project-icon-cover {
+    background: linear-gradient(135deg, #66bdff, #4285c9);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+}
+.project-icon-cover i {
+    font-size: 3rem;
+}
+.modal-hero-icon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(135deg, #66bdff, #4285c9);
+    color: #fff;
+}
+.modal-hero-icon i {
+    font-size: 4rem;
+}
+
+/* Experience timeline */
+.timeline {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+.timeline-item {
+    position: relative;
+    padding: 0 0 2.2rem 1.5rem;
+    border-left: 2px solid rgba(102, 189, 255, 0.35);
+}
+.timeline-item:last-child {
+    padding-bottom: 0;
+}
+.timeline-item::before {
+    content: '';
+    position: absolute;
+    left: -7px;
+    top: 4px;
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+    background-color: #66bdff;
+    border: 2px solid #fff;
+    box-shadow: 0 0 0 2px rgba(102, 189, 255, 0.35);
+}
+.timeline-header {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: baseline;
+    gap: 0.6rem;
+}
+.timeline-header h5 {
+    font-size: 1.05rem;
+    font-weight: 700;
+    color: #333;
+    margin: 0;
+}
+.timeline-date {
+    font-size: 0.78rem;
+    letter-spacing: 0.5px;
+    color: #66bdff;
+    font-weight: 600;
+}
+.timeline-company {
+    font-size: 0.9rem;
+    color: #888;
+    margin: 0.15rem 0 0.6rem;
+    font-style: italic;
+}
+.timeline-bullets {
+    margin: 0;
+    padding-left: 1.1rem;
+    color: #555;
+}
+.timeline-bullets li {
+    margin-bottom: 0.4rem;
+    line-height: 1.6;
+    font-size: 0.92rem;
 }
 
 /* Sidenav */
